@@ -17,7 +17,7 @@ export function Passwords(){
             //console.log(passwords);
             setListPasswords(passwords);
         }
-        loadPasswords().then(r => null);
+        loadPasswords();
     },[focused]);
 
     async function handleDeletePassword(item){
